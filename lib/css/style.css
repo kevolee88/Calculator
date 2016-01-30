@@ -5,6 +5,10 @@ html body {
 body {
   font-family: 'Open Sans', sans-serif;
 }
+p {
+  margin: 0;
+  display: inline-block;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -52,8 +56,8 @@ button {
 .wide {
   width: 240px !important;
 }
-button:hover, button:active {
-  opacity: .7;
+button:hover {
+  background-color: #375868;
 }
 #button-set-numbers {
   width: 240px;
@@ -65,7 +69,6 @@ button:hover, button:active {
     width: 80px;
     height: 80px;
     float: left;
-    background-color: #292f36;
   }
   #button-set-functions button, 
   #button-set-equations button {
